@@ -77,7 +77,11 @@ footer .logo span {
 }
 
 .main-page {
-    background-color:#2e2f42; ;
+    background-color:#2e2f42;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-page-title {
@@ -86,6 +90,7 @@ footer .logo span {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    padding-top: 88px;
 }
 
 .main-page-button {
@@ -182,14 +187,4 @@ footer {
 .menu {
     padding-left: 76px;
     gap: 40px;
-}
-
-.main-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-page-title {
-    padding-top: 88px;
 }
