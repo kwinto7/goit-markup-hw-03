@@ -12,6 +12,32 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container {
+    max-width:100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+
 address {
     font-style:normal;
 }
@@ -21,7 +47,7 @@ address {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -40,7 +66,7 @@ footer .logo span {
 
 .nav-link,
 .contacts {
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -50,18 +76,9 @@ footer .logo span {
     color: #2e2f42;
 }
 
-.nav-link:hover {
-    color: #404bbf;
-}
-
-.nav-link:focus {
-    color: #404bbf;
-}
-
-.contacts:hover {
-    color: #404bbf;
-}
-
+.nav-link:hover,
+.nav-link:focus,
+.contacts:hover,
 .contacts:focus {
     color: #404bbf;
 }
@@ -72,7 +89,7 @@ footer .logo span {
 
 .main-page-title {
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
@@ -81,7 +98,7 @@ footer .logo span {
 .main-page-button {
     background-color: #4d5ae5;
     font-weight: 500;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
@@ -100,7 +117,7 @@ footer .logo span {
 .portfolio-title {
     font-weight: 500;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
@@ -112,14 +129,14 @@ footer .logo span {
 .employee-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .description,
 .employee-position {
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -136,5 +153,5 @@ footer {
 }
 .footer-description {
     letter-spacing: 0.02em;
-    line-height: 150%;
+    line-height: 1.5;
 }
