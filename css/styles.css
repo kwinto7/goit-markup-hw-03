@@ -170,6 +170,7 @@ footer {
     color: #ffffff;
     text-align: center;
     padding-top: 88px;
+
 }
 
 .main-page-button {
@@ -179,6 +180,8 @@ footer {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    padding-top: 48px;
+    padding-bottom: 188px;
 }
 
 .main-page-button:hover {
