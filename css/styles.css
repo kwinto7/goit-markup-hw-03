@@ -163,3 +163,23 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.navigation,
+.mail-phone {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.navigation {
+    padding-left: 156px;
+}
+
+.mail-phone {
+    padding-right: 156px;
+    gap: 40px;
+}
+
+.menu {
+    padding-left: 76px;
+    gap: 40px;
+}
