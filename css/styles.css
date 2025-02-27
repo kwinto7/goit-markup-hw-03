@@ -29,7 +29,9 @@ ol {
     margin-bottom: 0;
     padding-left: 0;
 }
-.container {
+.container,
+.navigation,
+.menu {
     max-width:100%;
     padding-left: 0;
     padding-right: 0;
@@ -38,9 +40,6 @@ ol {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.menu {
-    display: flex;    
 }
 
 address {
