@@ -36,11 +36,10 @@ ol {
     margin-left: 0;
     margin-right: 0;
     display: flex;
+    justify-content: space-between;
 }
 .menu {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
 }
 
 address {
