@@ -37,6 +37,9 @@ ol {
     margin-right: 0;
     display: flex;
 }
+.menu {
+    display: flex;
+}
 
 address {
     font-style:normal;
@@ -50,6 +53,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 25.5 76 25.5 200;
 }
 
 .logo {
