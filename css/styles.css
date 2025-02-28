@@ -33,7 +33,7 @@ ol {
 .container {
     width: 1158px;
     margin: 0 auto;
-    background-color: red;
+   /* background-color: red;*/
     padding: 0 15px;
 }
 
@@ -199,6 +199,7 @@ footer {
 }
 
 .main-page-section {
+    padding: 188px 0;
     background-color: #2e2f42;
     text-align: center;
 }
