@@ -125,7 +125,7 @@ footer {
 .menu,
 .contacts-data,
 .mail-phone {
-    max-width: 100%;
+    max-width: 1440px;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
@@ -134,7 +134,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
-
+/*
+.container {
+    background-color: red;
+}
+*/
 .navigation,
 .mail-phone {
     padding-top: 24px;
@@ -155,12 +159,16 @@ footer {
     gap: 40px;
 }
 
+.main-page,
+.our-team,
+.portfolio,
+.footer {
+    width: 100%;
+}
+
 .main-page {
     background-color: #2e2f42;
-    display: flex;
-    max-width: 100%;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .main-page-title {
@@ -168,7 +176,6 @@ footer {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center;
     padding-top: 88px;
     padding-bottom: 48px;
 }
@@ -189,4 +196,18 @@ footer {
 
 .main-page-button:focus {
     background-color: #404BBF;
+}
+
+.features,
+.our-team-photos,
+.portfolio-items-first,
+.portfolio-items-second {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 10px;
+}
+.cashless-payment {
+    align-self: flex-end;
 }
