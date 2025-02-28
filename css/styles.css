@@ -251,7 +251,30 @@ footer {
     justify-content: center; 
     gap: 24px;
 }
-.features-section,
+
+.features-section {
+    padding: 120px 0;
+}
+
+.feature-title {
+    margin-bottom: 8px;
+}
+.feature {
+    flex-basis: calc((100%-3*24px)/4);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+}
+
 .our-team-section,
 .portfolio-section {
     padding: 120px 156px;
