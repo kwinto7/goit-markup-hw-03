@@ -87,7 +87,11 @@ footer .logo span {
     text-align: center;
     text-transform: capitalize;
 }
-
+/*
+h1 {
+    width: 496px;
+}
+*/
 .features-title,
 .product-title,
 .employee-name {
@@ -104,11 +108,12 @@ footer .logo span {
     letter-spacing: 0.02em;
 }
 
-.employee-fhoto {
+.employee-photo {
     background-color: #ffffff;
+    text-align: center;
 }
 
-.our-team {
+.our-team-section {
     background-color: #f4f4fd;
 }
 footer {
@@ -159,14 +164,14 @@ footer {
     gap: 40px;
 }
 
-.main-page,
-.our-team,
-.portfolio,
+.main-page-section,
+.our-team-section,
+.portfolio-section,
 .footer {
     width: 100%;
 }
 
-.main-page {
+.main-page-section {
     background-color: #2e2f42;
     text-align: center;
 }
@@ -178,6 +183,10 @@ footer {
     color: #ffffff;
     padding-top: 88px;
     padding-bottom: 48px;
+}
+
+.main-page-title span {
+    width: 496px;
 }
 
 .main-page-button {
@@ -206,8 +215,37 @@ footer {
     max-width: 100%;
     flex-direction: row;
     justify-content: center; 
-    gap: 10px;
+    gap: 24px;
 }
-.cashless-payment {
-    align-self: flex-end;
+.features-section,
+.our-team-section,
+.portfolio-section {
+    padding: 120px 156px;
+}
+
+.footer {
+    padding: 100px 156px;
+}
+
+.our-team-title,
+.portfolio-title {
+    margin-bottom: 72px;
+}
+
+.product-title {
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+.portfolio-items-first {
+    margin-bottom: 48px;
+}
+.footer-description {
+    width: 264px;
+    margin-top: 16px;
 }
