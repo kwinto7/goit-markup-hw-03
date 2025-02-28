@@ -159,12 +159,18 @@ h1 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+}
+
+.employee-name {
+    margin-bottom: 8px;
 }
 
 .description,
 .employee-position {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .employee-photo {
@@ -188,8 +194,6 @@ footer {
     border-bottom: 1px solid #e7e9fc;
 /*    background-color: green;*/
 }
-
-
 
 .main-page-section,
 .our-team-section,
@@ -252,7 +256,8 @@ footer {
     gap: 24px;
 }
 
-.features-section {
+.features-section,
+.our-team-section {
     padding: 120px 0;
 }
 
@@ -275,7 +280,13 @@ footer {
     white-space: nowrap;
 }
 
-.our-team-section,
+.employee-photo {
+    border-radius: 0px 0px 4px 4px;
+}
+.employee-container {
+    padding: 32px 0;
+}
+
 .portfolio-section {
     padding: 120px 156px;
 }
