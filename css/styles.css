@@ -255,8 +255,9 @@ footer {
     gap: 24px;
 }
 
-.portfolio-items {
+.portfolio-items-list {
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 
@@ -316,14 +317,12 @@ footer {
     margin-bottom: 8px;
 }
 
-.portfolio-items-list {
-    row-gap: 48px;
-}
 .footer-description {
     width: 264px;
 }
 .footer .logo {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .portfolio-item {
