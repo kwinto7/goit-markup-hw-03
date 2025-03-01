@@ -273,7 +273,7 @@ footer {
     flex-basis: calc((100%-3*24px)/4);
 }
 
-.visually-hidden {
+.visuallyhidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -294,8 +294,7 @@ footer {
 }
 
 .portfolio-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 120px 0;
 }
 
 .footer {
@@ -320,11 +319,12 @@ footer {
 .footer-description {
     width: 264px;
 }
-.footer .logo {
+
+.logo {
     margin-bottom: 16px;
     display: inline-block;
 }
 
-.portfolio-item {
+.item {
     width: calc((100%-48px)/3);
 }
