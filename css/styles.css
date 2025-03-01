@@ -250,9 +250,9 @@ footer {
 .our-team-photos,
 .portfolio-items-list   {
     display: flex;
-    
-    flex-direction: row;
-    justify-content: center; 
+    width: 100%;
+    /*flex-direction: row;*/
+    /*justify-content: center; */
     gap: 24px;
 }
 
@@ -329,5 +329,5 @@ footer {
 .portfolio-item {
     display: flex;
     flex-direction: column;
-    width: calc((50%-48px)/3);
+    width: calc((100%-48px)/3);
 }
