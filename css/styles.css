@@ -294,7 +294,8 @@ footer {
 }
 
 .portfolio-section {
-    padding-top: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .footer {
@@ -325,6 +326,8 @@ footer {
     display: inline-block;
 }
 
-.item {
-    width: calc((100%-48px)/3);
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    width: calc((50%-48px)/3);
 }
