@@ -38,6 +38,10 @@ ol {
     flex-direction: column;
 }
 
+.header-section .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
 .navigation {
     display: flex;
     align-items: center;
@@ -70,7 +74,6 @@ ol {
     gap: 40px;
 }
 
-
 .contacts-data,
 .mail-phone {
     max-width: 100%;
@@ -80,7 +83,7 @@ ol {
     margin-right: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .navigation,
