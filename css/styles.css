@@ -103,7 +103,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding: 25.5 76 25.5 200;
+    /* padding: 25.5px 76px 25.5px 200px; */
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo {
