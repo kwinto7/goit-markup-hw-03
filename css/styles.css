@@ -310,7 +310,8 @@ footer {
 }
 
 .footer .container {
-    align-items: flex-start;
+    display: inline-block;
+    /* align-items: flex-start; */
 }
 
 .footer-description {
@@ -322,7 +323,7 @@ footer {
 }
 
 .footer .logo {
-    display: inline-block !important;
+    display: block;
     margin-bottom: 16px;
 }
 
